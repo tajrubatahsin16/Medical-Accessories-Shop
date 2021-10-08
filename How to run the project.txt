@@ -1,0 +1,10 @@
+Softwares: VS Code, Xampp
+
+Steps:
+1) After installation of VS Code and Xampp; set up the Xampp in your PC.
+
+2) Keep The project folder(Medicine Accessories Shop) in (C:->Xampp->htdocs).
+
+3) Import the SQL file(medical accessories shop) in your localhost project database.
+
+4) Run the index.php file in your browser. (Search in your browser like this: localhost/Medicine Accessories Shop)

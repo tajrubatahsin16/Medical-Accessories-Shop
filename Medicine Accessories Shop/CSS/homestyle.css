@@ -1,0 +1,122 @@
+body{
+    background: #ADD8E6;
+}
+/*.container1{
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}*/
+.container1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container1 img{
+	max-width: 100%;
+}
+.container1 .img-col{
+	flex-basis: 3%;
+	position: relative;
+	left: 30px;
+}
+.header{
+    font-family: Abril Fatface;
+    font-weight: 600;
+	text-decoration: underline;
+	position: relative;
+	left: 30px;
+    background: #ADD8E6;
+    color: #29465B; 
+}
+.container1 .text-col{
+	font-family: Libre Baskerville;
+    font-weight: 400;
+	position: relative;
+	left: 380px;
+}
+a{
+	color: #29465B;
+}
+h5{
+    font-family: Libre Baskerville;
+    font-weight: 600;
+    color: black;
+}
+.container .col-md-6{
+	width: auto;
+    height: auto;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+    padding-left: 100px;
+	padding-right: 100px;
+    margin-left: auto;
+	margin-right: auto;
+}
+.container .card-img-top{
+	background: #ADD8E6;
+	height: 400px;
+	width: 400px;
+    border-radius: 30%;
+	position: relative;
+	left: 50%;
+	top: auto;
+	transform: translateX(-50%);
+	padding: 23px;
+	animation: zoomIn;
+	animation-duration: 5s;
+}
+.card{
+	display: contents;
+}
+.container{
+	background: #ADD8E6;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-left: 80px;
+	margin-right: 80px;
+	display: flex;
+	justify-content: center;
+}
+.container .card-body{
+
+	padding: 15px 7px 7px 7px;
+	min-height: 250px;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgb(0 0 0/20%),0 6px 20px 0 rgb(0 0 0/19%);
+	background:#eee;
+}
+.container .card-title{
+	margin-top: 1rem;
+	margin-bottom: 0.7rem;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-weight: 600;
+	color: #29465B;
+  	animation: bounce; 
+  	animation-duration: 5s;
+}
+.container .card-text{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 250px;
+    font-family: Libre Baskerville;
+    font-weight: 400;
+	color: #4863A0;
+  	animation: bounce; 
+ 	animation-duration: 5s;
+
+}
+/*
+.inner{
+	overflow: hidden;
+}
+.inner img{
+	transition: all 1.5s ease;
+}
+.inner:hover img{
+	transform: scaleX(0.8);
+	transform: scaleZ(0.8);
+	transform: scaleY(0.8);
+}
+*/

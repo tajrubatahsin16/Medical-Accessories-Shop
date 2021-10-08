@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFCB05;
+}
+.about-section{
+    background: url(aboutusback.jpg) no-repeat left;
+    background-size: 50%;
+    background-color: #EEE8AA;
+    overflow: hidden;
+    padding: 80px 0;
+ height: 100vh; 
+}
+.about-section .abouthome{
+    position: relative;
+    top: 0px;
+	left: 1070px;
+}
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #F4A460;
+    padding: 120px;
+    max-height: 600px;
+    border-radius: 7%;
+}
+.inner-container h1{
+    margin-bottom: 10px;
+    font-family: Abril Fatface;
+    font-weight: 900;
+	text-decoration: underline;
+    animation: fadeIn;
+    animation-duration: 7s;
+}
+.text{
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    font-size: 13px;
+    columns: #545454;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+    animation: fadeIn;
+    animation-duration: 5s;
+}
+
+
+
+
+
+.visit{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    animation: bounce;
+    animation-duration: 5s;
+}
+@media screen and (max-width:1000px){
+    .inner-container{
+        padding: 80px;
+    }   
+}
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width:100%;
+    }
+}
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
